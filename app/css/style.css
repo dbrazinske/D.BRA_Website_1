@@ -162,9 +162,7 @@ button:hover {
     text-align: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
+    align-items: center; }
   .article-3 .text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -372,11 +370,26 @@ footer {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse; } }
 
-@media (max-width: 750px) {
+@media only screen and (max-width: 600px) {
   footer {
-    margin: 0; }
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  footer p {
+    text-align: center; }
   .article-1 {
     text-align: center; }
+  .article-1 h1 {
+    font-size: 1em; }
+  .article-1 button {
+    width: 325px; }
+  .article-1 input {
+    width: 300px; }
   .article-2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -388,7 +401,12 @@ footer {
     -ms-flex-direction: column;
     flex-direction: column; }
   .article-5 {
-    text-align: center; } }
+    text-align: center; }
+  .article-5 button {
+    margin-top: 5px;
+    width: 325px; }
+  .article-5 input {
+    width: 300px; } }
 
 @media (max-width: 1072px) {
   .article-4 .review-1 {

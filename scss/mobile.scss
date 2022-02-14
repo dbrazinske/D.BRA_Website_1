@@ -10,22 +10,47 @@
     flex-direction: column-reverse;
 }
 }
-@media(max-width:750px){
+@media only screen and (max-width:600px){
   footer{
       margin: 0;
+      flex-direction: column;
+      justify-content: center;
+  }
+  footer p{
+      text-align: center;
   }
   .article-1{
       text-align: center;
   }
+  .article-1 h1{
+    font-size: 1em;
+  }
+  .article-1 button{
+      width: 325px;
+  }
+  .article-1 input{
+      width: 300px;
+  } 
   .article-2{
       flex-direction:column;
   }
+  .article-3 .text{
+    //   nežinau kaip pakeisti
+  } 
   .article-4 .review-1{
     flex-direction: column;
   }
   .article-5{
       text-align: center;
   }
+  .article-5 button{
+      margin-top: 5px;
+      width: 325px;
+  }
+  .article-5 input{
+      width: 300px;
+  }
+
 }
 @media(max-width:1072px){
    .article-4 .review-1{
