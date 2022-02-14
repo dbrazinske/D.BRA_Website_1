@@ -26,17 +26,39 @@
     font-size: 1em;
   }
   .article-1 button{
+      margin-top: 5px;
       width: 325px;
   }
   .article-1 input{
       width: 300px;
   } 
+  .article-1 .email{
+      display: flex;
+      flex-direction: column;
+  }
   .article-2{
       flex-direction:column;
   }
-  .article-3 .text{
-    //   nežinau kaip pakeisti
+  .article-3 .img-1{
+    width: 400px;
   } 
+  .article-3 .img-2{
+    width: 400px;
+  } 
+  .article-3 .img-3{
+    width: 400px;
+  } 
+  .article-3 .text{
+    width: 400px;
+  } 
+  .article-3 p{
+      width: 400px;
+      text-align: center;
+  }
+  .article-3 h2{
+      width: 400px;
+      text-align: center;
+  }
   .article-4 .review-1{
     flex-direction: column;
   }
