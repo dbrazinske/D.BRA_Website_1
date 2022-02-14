@@ -1,4 +1,4 @@
-@media(max-width:1620px){
+@media(max-width:1400px){
   
  section:nth-of-type(1){
     flex-direction: column-reverse;
@@ -17,10 +17,18 @@
   .article-1{
       text-align: center;
   }
-  .article-4{
-      flex-direction: column;
+  .article-2{
+      flex-direction:column;
+  }
+  .article-4 .review-1{
+    flex-direction: column;
   }
   .article-5{
       text-align: center;
   }
+}
+@media(max-width:1072px){
+   .article-4 .review-1{
+       justify-content: center;
+  } 
 }
