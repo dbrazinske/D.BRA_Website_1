@@ -78,11 +78,20 @@ button:hover {
   max-width: 100% ;
   background-color: #f8f9fa;
   
-  img{
+  .img-1{
+    background: url("../images/bg-showcase-1.jpg");
     height:500px;
-    max-width: 670px;
-    object-fit: cover;
-    
+    width: 670px;
+  }
+  .img-2{
+    background: url("../images/bg-showcase-2.jpg");
+    height:500px;
+    width: 670px;
+  }
+  .img-3{
+    background: url("../images/bg-showcase-3.jpg");
+    height:500px;
+    width: 670px;
   }
   .information{
   display: flex;

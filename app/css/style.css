@@ -143,11 +143,18 @@ button:hover {
   align-items: center;
   max-width: 100%;
   background-color: #f8f9fa; }
-  .article-3 img {
+  .article-3 .img-1 {
+    background: url("../images/bg-showcase-1.jpg");
     height: 500px;
-    max-width: 670px;
-    -o-object-fit: cover;
-    object-fit: cover; }
+    width: 670px; }
+  .article-3 .img-2 {
+    background: url("../images/bg-showcase-2.jpg");
+    height: 500px;
+    width: 670px; }
+  .article-3 .img-3 {
+    background: url("../images/bg-showcase-3.jpg");
+    height: 500px;
+    width: 670px; }
   .article-3 .information {
     display: -webkit-box;
     display: -ms-flexbox;
