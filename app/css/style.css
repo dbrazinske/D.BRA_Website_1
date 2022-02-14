@@ -370,7 +370,7 @@ footer {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse; } }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   footer {
     margin: 0;
     -webkit-box-orient: vertical;
