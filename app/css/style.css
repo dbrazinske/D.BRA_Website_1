@@ -224,10 +224,7 @@ button:hover {
     -ms-flex-direction: row;
     flex-direction: row;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
+    flex-wrap: wrap; }
   .article-4 .review-2 {
     display: -webkit-box;
     display: -ms-flexbox;
